@@ -120,6 +120,6 @@ anim = animation.FuncAnimation(
 
 if saved:
     anim.save("water.mp4")
+else:
+    plt.show()
 
-    
-plt.show()
